@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class UmsMember {
 
-    @Id
+    @Id // 确定下面的字段id为主键
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String memberLevelId;

@@ -25,6 +25,18 @@ public class UserController {
 
         List<UmsMember> allUser = userService.getAllUser();
 
+        System.out.println("打印成功");
         return allUser;
     }
+
+    @RequestMapping("/geto")
+    public List<UmsMember> getOne(){
+        System.out.println("ha哈哈哈 ");
+        String id = "1";
+        List<UmsMember> ts = userService.ts(id);
+        System.out.println("ha哈哈哈 ");
+        return ts;
+
+    }
+
 }

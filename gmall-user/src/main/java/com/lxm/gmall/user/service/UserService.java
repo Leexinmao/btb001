@@ -10,6 +10,12 @@ public interface UserService {
 
 
     List<UmsMember>  getAllUser();
+
+    List<UmsMember> ts(String id);
+
+//    UmsMember ts(String id);
+
+
 }
 
 

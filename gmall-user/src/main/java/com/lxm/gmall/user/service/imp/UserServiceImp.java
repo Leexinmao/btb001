@@ -22,4 +22,14 @@ public class UserServiceImp implements UserService {
 
         return umsMembers;
     }
+
+    public List<UmsMember>  ts(String id){
+
+        List<UmsMember> umsMembers = userMapper.selectAllUser();
+        return  umsMembers;
+
+
+    }
+
+
 }
