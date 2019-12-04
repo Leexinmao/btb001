@@ -6,6 +6,9 @@ import java.util.List;
 
 public interface UserService {
 
+
+
+
     List<UmsMember>  getAllUser();
 }
 
