@@ -1,0 +1,9 @@
+#spring:
+#  datasource:
+#    username: root
+#    password: 123
+#    url: data
+#mybatis:
+#  config-location:
+#  configuration:
+#    map-underscore-to-camel-case: true
